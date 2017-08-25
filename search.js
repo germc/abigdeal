@@ -44,26 +44,29 @@ var hitTemplate =
 '</br>'+
     '<div class="product-price">----------------------------------</div>' +
 '</br>'+
-    '<div class="product-price"><b>Monthly Net Profit: €{{{NetProfit}}} </b></div>' +
+    '<div class="product-price">Est. monthly total Net Profit: <b>€{{{NetProfit}}} </b></div>' +
 '</br>'+
     '<div class="product-price">----------------------------------</div>' +
-
 '</br>'+
-'<div class="product-price">Rating lower is better: {{{Rating}}}/5</div>' +
+'<div class="product-price">Est. monthly total ROI: <b>{{{NetProfit}}}% </b></div>' +
 '</br>'+
-'<div class="product-price">No. reviews, lower is better: {{{Reviews}}}</div>' +
+'<div class="product-price">----------------------------------</div>' +
 '</br>'+
-'<div class="product-price">How difficult to rank the product? needs to be over 3, higher is better : {{{Sales/Reviews}}}</div>' +
-'</br>'+
-'</br>'+
-
-'<div class="product-price"><a href="https://www.amazon.co.uk/gp/product/{{{ASIN}}}" class="btn btn-default"">View on Amazon</a></div>'+
+'<div class="product-price">Total funding required from investors to begin production: <b>{{{Fees}}}*{{{MonthlySales}}} </b></div>' +
 
 '</br>'+
 '</br>'+
-'<div class="product-price"><a href="mailto:someone@example.com?Subject=I%20want%20to%20invest%20in%20this%20{{{Product Name}}}" class="btn btn-default"">Invest</a></div>'+
+
+'<iframe height="220" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://teaandme.wufoo.com/embed/rp5ux3n070o907/"><a href="https://teaandme.wufoo.com/forms/rp5ux3n070o907/">Fill out my Wufoo form!</a></iframe></div>' +
+
+'<div class="product-price"><a href="https://www.amazon.co.uk/gp/product/{{{ASIN}}}" class="btn btn-default"">View product on Amazon</a></div>'+
+
+
+
+'<div class="sharethis-inline-share-buttons"></div>'+
 
 '</br>'+
+
 
       '</div>' +
   '</article>';
