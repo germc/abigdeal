@@ -1,0 +1,63 @@
+<!DOCTYPE html><head><meta charset="UTF-8"><title>E-Commerce search by Algolia</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"><link rel="stylesheet" href="instantsearch.css"><link rel="stylesheet" type="text/css" href="main.css"><script src="instantsearch.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</head>
+
+
+<body>
+    
+<div class="container-fluid">
+  <header class="content-wrapper">
+    <a href="./" class="logo">aBIGdeal</a>
+    <div class="input-group">
+      <input type="text" class="form-control" id="q" />
+      <span class="input-group-btn">
+        <button class="btn btn-default"><i class="fa fa-search"></i></button>
+      </span>
+    </div>
+  </header>
+
+  <div class="content-wrapper">
+      <div id="clear-all"></div>
+
+    <aside>
+      
+      
+      <section class="facet-wrapper">
+
+          <div id="reviews" class="facet"></div>
+          
+         
+          <div id="difficulty" class="facet"></div>
+          
+          
+          
+      </section>
+      
+      
+      
+    </aside>
+    
+   
+
+    <div class="results-wrapper">
+      <section id="results-topbar">
+        <div class="sort-by">
+          <label>Sort by</label>
+          <div id="sort-by-selector"></div>
+        </div>
+        <div id="stats" class="text-muted"></div>
+      </section>
+      <main id="hits"></main>
+      <section id="pagination"></section>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/jquery/1.11.3/jquery.min.js" async></script>
+<script src="search.js"></script>
+
+  
+</body>
